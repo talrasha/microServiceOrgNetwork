@@ -7,7 +7,7 @@ import time
 import csv, json
 
 your_email = "xiaozhou.li@tuni.fi"
-github_personal_token_input="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"
+github_personal_token_input="the token"
 personal_token = github_personal_token_input
 token = os.getenv('GITHUB_TOKEN', personal_token)
 headers = {'Authorization': f'token {token}'}
